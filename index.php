@@ -212,6 +212,7 @@ foreach ($book_list as $book) {
         var m = $('.info-msg').val();
 
         $.post('book.php', {t:t,m:m}, function(data) {
+          alert('신청되었습니다');
           $('#bookModal').modal('hide')
         });
       });
