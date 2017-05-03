@@ -1,33 +1,44 @@
 <?php
 $book_list = array();
 
+array_push($book_list, '9791185400525'); //독서만담
+array_push($book_list, '9788925561158'); //최고의 설득
+array_push($book_list, '9788954641548'); //너무 시끄러운 고독
+array_push($book_list, '9788932029863'); //타자의 추방
+array_push($book_list, '9788925560854'); //이 슬픔이 슬픈 채로 끝나지 않기를
+array_push($book_list, '9788958628224'); //시를 잊은 그대에게
+array_push($book_list, '9788982813986');
+array_push($book_list, '9788970754079');
+array_push($book_list, '9788954603904');
+array_push($book_list, '9788993964219');
+//array_push($book_list, '9791157841509'); //400억
 array_push($book_list, '9788970754710'); //왕자의특권
-array_push($book_list, '9788932027173'); //그것이나만은아니기를
-array_push($book_list, '9788954606837'); //흐르는강물처럼
-array_push($book_list, '9788954612999'); //브리다
+//array_push($book_list, '9788932027173'); //그것이나만은아니기를
+//array_push($book_list, '9788954606837'); //흐르는강물처럼
+//array_push($book_list, '9788954612999'); //브리다
 array_push($book_list, '9788956055466'); //책은도끼다
 array_push($book_list, '9788965702047'); //내가미친8주간의기록
-array_push($book_list, '9788954610971'); //어두운상점들의거리
+//array_push($book_list, '9788954610971'); //어두운상점들의거리
 array_push($book_list, '9788932915708'); //한여자
 array_push($book_list, '9788932915678'); //남자의자리
 array_push($book_list, '9788961570121'); //어머니의죽음
-array_push($book_list, '9788954625173'); //불륜
-array_push($book_list, '9788994120997'); //지적대화를위한넓고얕은지식
-array_push($book_list, '9791195677108'); //시민의교양
-array_push($book_list, '9788954620970'); //아크라문서
-array_push($book_list, '9788954616126'); //알레프
-array_push($book_list, '9791186560204'); //명견만리1
-array_push($book_list, '9791186560167'); //명견만리2
+//array_push($book_list, '9788954625173'); //불륜
+//array_push($book_list, '9788994120997'); //지적대화를위한넓고얕은지식
+//array_push($book_list, '9791195677108'); //시민의교양
+//array_push($book_list, '9788954620970'); //아크라문서
+//array_push($book_list, '9788954616126'); //알레프
+//array_push($book_list, '9791186560204'); //명견만리1
+//array_push($book_list, '9791186560167'); //명견만리2
 array_push($book_list, '9788954642019'); //스파이
 array_push($book_list, '9788937489327'); //무의미의축제
-array_push($book_list, '9788965745280'); //카인
-array_push($book_list, '9788954640190'); //2016젊은작가상수상작품집
+//array_push($book_list, '9788965745280'); //카인
+//array_push($book_list, '9788954640190'); //2016젊은작가상수상작품집
 array_push($book_list, '9788932916194'); //창문넘어도망친100세노인
-array_push($book_list, '9788954637756'); //개인주의자선언
-array_push($book_list, '9788956056609'); //다시책은도끼다
+//array_push($book_list, '9788954637756'); //개인주의자선언
+//array_push($book_list, '9788956056609'); //다시책은도끼다
 array_push($book_list, '9788954432160'); //마크툽
-array_push($book_list, '9791156756552'); //죽여마땅한사람들
-array_push($book_list, '9788952235268'); //편의점인간
+//array_push($book_list, '9791156756552'); //죽여마땅한사람들
+//array_push($book_list, '9788952235268'); //편의점인간
 
 // print_r($book_list);
 
@@ -115,6 +126,7 @@ foreach ($book_list as $book) {
     <div class="container">
       <div class="row">
         <h4 class="col-xs-12 title">책나눔</h4>
+        <h6 class="col-xs-12">책을 선택하면 상세정보 및 신청화면이 뜹니다 :)</h6>
       </div>
 
       <div class="row">
